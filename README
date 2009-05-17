@@ -1,0 +1,68 @@
+# 
+# LICENCE
+#
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+#
+# ABOUT
+#
+Author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
+Version: 0.21
+Note: Works with SimpleViewer 1.8
+
+
+#
+# INSTALL
+#
+1) Getting simpleviewer (default viewer at the moment)
+    - You can download simpleviewer from the following url: http://www.airtightinteractive.com/simpleviewer/
+    - Copy to the public/simpleviewer folder the following files from the archive you have downloaded:
+          - viewer.swf
+          - swfobject.js
+2) Installing the gallery
+    - Set the public folder as your documentroot for your website. 
+    - You need to change the permissions for the cache, albums and public/cache directories: 
+       $ chmod 777 albums cache public/cache -Rf
+3) Configuring your gallery
+    - See next section
+
+#
+# CONFIGURATION
+#
+See conf/config.ini for application configuration. This includes password, RSS configuration and more.
+See views/ and public/stylesheets for design configuration. 
+
+#
+# USAGE
+#
+:: Adding albums ::
+1. Create directories in public/albums, to create albums.
+2. Drop pictures in these directories.
+3. You're done !
+
+:: Protecting your pictures ::
+Protect your entire gallery by setting galleryProtection to 'true' in the configuration file. Then set galleryPassword to the password of your choice in this same configuration file.
+
+Note 1: Accents in album title (their directory name, actually) can cause some encoding issues at the moment. Picture names support accents however.
+Note 2: You may want to visit your new album in order to generate thumbnails.
+
+
+#
+# TO DO
+#
+- Create passwords for albums.
+- Allow sub-albums (the gallery should follow the filesystem structure)
+- Store session in a visitor's cookie. (add option in configuration file)

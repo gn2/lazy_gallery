@@ -1,0 +1,113 @@
+/*
+*    This program is free software; you can redistribute it and/or modify
+*    it under the terms of the GNU General Public License as published by
+*    the Free Software Foundation; either version 2 of the License, or
+*    (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU General Public License for more details.
+*
+*    You should have received a copy of the GNU General Public License
+*    along with this program; if not, write to the Free Software
+*    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/**
+ * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
+ * 
+ */
+
+body {
+	background-color: #181818;
+	color:#ffffff;
+	text-align: center;
+}
+
+h1 a, h1 a:link, h1 a:visited {
+	color: #4A4A4A;
+	text-decoration: underline;
+}
+
+h3 a, h3 a:link, h3 a:visited {
+	color: #7B7B7B;
+	text-decoration: underline;
+}
+
+
+h1 a:hover, h3 a:hover {
+	text-decoration: none;
+}
+
+#title {
+}
+
+#flashcontent {
+	border-top: 4px dashed #aad44f;
+}
+
+#rss-icon {
+	border: none;
+	height: 25px;
+	margin-left: 10px;
+}
+
+table.album {
+	width: 500px;
+	height: 120px;
+	border: 1px dashed #aad44f;
+	margin: 15px auto 0px auto;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #222;
+}
+table.album:hover {
+	border: 1px dashed #b18ac3;
+	background-color: #262626;
+}
+td.thumbnail {
+	width: 110px;
+	padding: 10px 0px 5px 10px;
+}
+td.thumbnail img {
+	padding: 5px;
+	border: 1px solid #4A4A4A;
+}
+td.thumbnail a:hover img{
+	border: 1px solid #b18ac3;
+}
+td.title {
+	text-align: left;
+}
+.error{
+	font-size: 80%;
+	color:red;
+	padding: 7px;
+	border: 1px solid red;
+	width: 500px;
+	background-color: #2F2F2F;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Page numbers */
+.pagenumber, .currentpagenumber {
+	font-size: 80%;
+	padding: 2px 5px 2px 5px;
+	margin-left: 5px;
+	border: 1px solid #4A4A4A;
+	background-color: #222;
+}
+a.pagenumber:hover {
+	background-color: #262626;
+	border: 1px solid #b18ac3;
+	color: #b18ac3;
+}
+a.pagenumber{
+	color:white;
+	text-decoration: none;
+}
+.currentpagenumber {
+	color: #4A4A4A;
+}
