@@ -17,9 +17,6 @@
 
 /**
  * XSLTPage Class: generate an HTML page from XSLT and XML
- *
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
- *
  */
 
 class XSLTPage {

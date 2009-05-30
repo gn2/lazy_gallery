@@ -16,8 +16,6 @@
 */
 
 /**
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
- * 
  * This file provides authentication for the gallery
  */
 

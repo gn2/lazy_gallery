@@ -17,8 +17,6 @@
 
 /**
  * rss2 Class: Create RSS 2.0 feeds.
- *
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
  */
 
 class rss2 {

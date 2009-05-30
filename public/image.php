@@ -16,8 +16,6 @@
 */
 
 /**
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
- *
  * This file renders pictures using $_GET['picture'], $_GET['album'], and $_GET['cache'] parameters. 
  */
 

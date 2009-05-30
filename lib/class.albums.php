@@ -17,8 +17,6 @@
 
 /**
  * albums Class: Manage albums for SimpleViewer. Scan albums dir and generate XML for XSL file. 
- *
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
  */
 
 class albums {

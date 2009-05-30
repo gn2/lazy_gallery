@@ -18,8 +18,6 @@
 /**
  * simpleViewer Class: generate the XML configuration file for a single SimpleViewer gallery.
  *
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
- *
  * Works with SimpleViewer 1.8
  */
 

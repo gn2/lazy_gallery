@@ -31,9 +31,7 @@
 
 /**
  * iniConfig Class: Allow to load and modify ini files. 
- * 
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
-  * Shortened version: no support for logging
+ * Shortened version: no support for logging
  */
 
 class iniConfig {

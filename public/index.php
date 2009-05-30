@@ -16,8 +16,6 @@
 */
 
 /**
- * @author Adrien WARTEL (adrien.wartel [at] gmail [dot] com)
- * 
  * This file renders all pages + RSS feed. 
  */
 
